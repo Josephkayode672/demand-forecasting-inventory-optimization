@@ -28,12 +28,18 @@ This project focuses on building a machine learning model to forecast future sal
 - Created rolling statistics (moving averages)  
 - Added basic time-based indicators  
 
+### 📌 Week 3: Model Training and Selection
+
+### 📌 Week 4: Moadel Evaluation
 ---
 
 ## 🛠️ Tools Used
 - Python  
 - Pandas  
-- NumPy  
+- NumPy 
+- scikit learn
+- XGboost 
+- Matplotliib
 
 ---
 
