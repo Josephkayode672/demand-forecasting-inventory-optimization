@@ -60,15 +60,14 @@ This project focuses on building a machine learning model to forecast future sal
 ---
 
 ## 📁 Project Structure
-├── src/ │   
-    ├── data_processing.py       # Data cleaning, transformation & EDA │   
-    ├── feature_engineering.py   # Feature creation and selection │   
-    ├── model_training.py        # Model training and hyperparameter tuning │  
-    └── model_evaluation.py      # Evaluation metrics (MAE, RMSE) │ 
-├── main.py                      # End-to-end pipeline (outside src folder) 
-├── data/                        # Raw and processed datasets 
-├── images                       # All plots(EDA, feature importance, actual vs predicted etc)
-├── requirements.txt             # Contain all python liberies needed for this project
+├── src/ │   ├── data_processing.py       # Data cleaning, transformation & EDA │   
+├── feature_engineering.py   # Feature creation and selection │   
+├── model_training.py        # Model training and hyperparameter tuning │  
+└── model_evaluation.py      # Evaluation metrics (MAE, RMSE) │ 
+├── main.py                      # End-to-end pipeline (outside src folder) |
+├── data/                        # Raw and processed datasets |
+├── images                       # All plots(EDA, feature importance, actual vs predicted etc) |
+├── requirements.txt             # Contain all python liberies needed for this project |
 └── README.md                    # Project documentation
 
 ---
@@ -104,10 +103,10 @@ This project focuses on building a machine learning model to forecast future sal
 
 ## ▶️ How to Run
 
-# Install dependencies
+### Install dependencies
 pip install -r requirements.txt
 
-# Run pipeline
+### Run pipeline
 python main.py
 
 ---
