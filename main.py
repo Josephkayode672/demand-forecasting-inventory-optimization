@@ -9,7 +9,7 @@ from src.model_evaluation import evaluate_model, feature_importance, plot_featur
 import pandas as pd
 
 def main():
-    """Main pipeline for data processing and EDA."""
+    """Main pipeline for data preprocessing and EDA."""
 
     #======== WEEK: 1 ========
     # Steps 1: load raw CSV dataset into a pandas dataframe
@@ -33,6 +33,7 @@ def main():
     print("WEEK 1: EXPLORATORY DATA ANALYSIS")
     print("="*40)
     plot_all(data)
+    print('All EDA ploted successfully')
     print()
 
     """Main pipeline for Advanced feature Engineering."""
@@ -125,6 +126,5 @@ def main():
 
     print(f'the next day sales quantity is :{prediction_result:.2f}')
     
-
 if __name__ == "__main__":
     main()
